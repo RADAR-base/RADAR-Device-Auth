@@ -36,7 +36,7 @@
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
     "moment": "^2.24.0",
-    "rxjs": "~6.2.0",
+    "rxjs": "~6.6.7",
     "ts-deepcopy": "^0.1.4",
     "zone.js": "~0.8.26"
   },
