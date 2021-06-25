@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.jlleitschuh.gradle.ktlint
+    versions:
+    - 10.0.0
+  - dependency-name: org.springframework.boot:spring-boot-gradle-plugin
+    versions:
+    - 2.4.0
+  - dependency-name: org.radarcns:radar-auth
+    versions:
+    - 0.6.1
+  - dependency-name: org.projectlombok:lombok
+    versions:
+    - 1.18.16
